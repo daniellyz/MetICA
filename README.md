@@ -26,7 +26,7 @@ M1=MetICA_source_generator(new_data_centered,0.9,'gaussian',800)
 
 M2=MetICA_cluster_generator(M1$S,'spearman',M1$IC)
 
-# 4. Call matlab function from R to visualize the clusters:
+# 4. Call matlab function from R to visualize the clusters:sq
 
 
 
