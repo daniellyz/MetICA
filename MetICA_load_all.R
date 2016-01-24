@@ -1,8 +1,8 @@
 ## Loading all necessary packages and files before running the program.
 
-packages <- c("fastICA", "MASS", "e1071", "R.matlab")
+packages <- c("fastICA", "MASS", "e1071")
 
-for (p in 1:4){
+for (p in 1:3){
   x=packages[p]
   if (!require(x,character.only = TRUE))
   {
@@ -13,7 +13,6 @@ for (p in 1:4){
 library(fastICA)
 library(MASS)
 library(e1071)
-library(R.matlab)
 
 source('MetICA_fastICA.R')
 source('MetICA_simulated_generator.R')
